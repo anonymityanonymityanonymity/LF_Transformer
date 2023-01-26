@@ -10,7 +10,7 @@ Install [conda](https://docs.conda.io/en/latest/miniconda.html)
 ```bash
 export PROJECT_DIR=<ABSOLUTE path to the repository root>
 # example: export PROJECT_DIR=/home/myusername/repositories/revisiting-models
-git clone https://github.com/Yura52/tabular-dl-revisiting-models $PROJECT_DIR
+git clone https://github.com/anonymityanonymityanonymity/LF_Transformer $PROJECT_DIR
 cd $PROJECT_DIR
 
 conda create -n revisiting-models python=3.8.8
@@ -55,3 +55,7 @@ python ./bin/ensemble.py LF_transformer output/{dataset_name}/lf_transformer/tun
 Your results will be located at `output/{dataset}/LF_transformer/tuned_reproduced_ours_ensemble`
 
 
+
+# by referring to
+Gorishniy, Yury, et al. "Revisiting deep learning models for tabular data." Advances in Neural Information Processing Systems 34 (2021): 18932-18943.
+https://github.com/Yura52/tabular-dl-revisiting-models
